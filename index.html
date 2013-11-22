@@ -1,13 +1,19 @@
 ---
-
+title: Index
 ---
 
-My GitHub Page
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<html>
+<head>
+	<title>{{ page.title }}</title>
+</head>
+<body>
+	<h1>My GitHub Page</h1>
+	<ul>
+	  {% for post in site.posts %}
+	    <li>
+	      <a href="{{ post.url }}">{{ post.title }}</a>
+	    </li>
+	  {% endfor %}
+	</ul>
+</body>
+</html>

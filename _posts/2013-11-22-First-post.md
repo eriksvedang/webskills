@@ -1,6 +1,6 @@
 ---
 title: First post!
-layout: blogpost.html
+layout: blogpost
 ---
 
 Hello, this is my first post.
