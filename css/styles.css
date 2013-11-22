@@ -9,6 +9,9 @@ body {
 	padding: 1em;
 	background: #EEE;
 	border-radius: 3px;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 	/*box-shadow: 5px 5px 5px #BBB;*/
 }
 
@@ -21,6 +24,11 @@ h1 {
 .nice-area {
 	background: #CCC;
 	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+.nice-area:last-child {
+	margin-bottom: 0px;
 }
 
 .nice-area h2 {
