@@ -1,19 +1,18 @@
 ---
 title: Index
+layout: base
 ---
 
-<html>
-<head>
-	<title>{{ page.title }}</title>
-</head>
-<body>
-	<h1>My GitHub Page</h1>
-	<ul>
-	  {% for post in site.posts %}
-	    <li>
-	      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-	    </li>
-	  {% endfor %}
-	</ul>
-</body>
-</html>
+<h1>Erik Sved&auml;ng</h1>
+<nav class="nice-area">
+	<h2>Latest posts</h2>
+	<div class="box">
+		<ul>
+		  {% for post in site.posts %}
+		    <li>
+		      <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+		    </li>
+		  {% endfor %}
+		</ul>
+	</div>
+</nav>

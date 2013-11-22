@@ -1,0 +1,40 @@
+body {
+	font-family: sans-serif;
+	background: rgb(216, 131, 156);
+	line-height: 1.4em;
+}
+
+.content {
+	margin: 0.5em;
+	padding: 1em;
+	background: #EEE;
+	border-radius: 3px;
+	/*box-shadow: 5px 5px 5px #BBB;*/
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+.nice-area {
+	background: #CCC;
+	border-radius: 3px;
+}
+
+.nice-area h2 {
+	text-align: center;
+	background: #AAA;
+	color: #555;	
+	font-size: 0.9em;
+}
+
+.box {
+	padding: 0.3em;
+}
+
+a {
+	color: #CF6374;
+	text-decoration: none;
+}
